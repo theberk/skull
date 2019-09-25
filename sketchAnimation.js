@@ -33,14 +33,14 @@ rect(middlesk,450,350,50);
 //bottomskull
 rect(bottomsk,500,450,50);
 //left skull
-rect(leftsk,545,50,150);
+rect(leftsk,550,50,150);
 //brow
-rect(brow,545,150,50);
+rect(brow,550,150,50);
 rect(brow2,600,50,50);
 //right skull
-rect(rightsk,545,50,140);
+rect(rightsk,550,50,150);
 //bottom skull
-rect(bottom2,645,350,50);
+rect(bottom2,650,360,50);
 //nose left
 rect(nosel,700,150,50);
 //nsoe right
@@ -106,7 +106,7 @@ rect(rightt,900,50,50);
     
     if(theTime > 6000)
     {  
-    if(bottom2 < 935.1)
+    if(bottom2 < 935)
         {bottom2 = bottom2 + 15}
     }
     
@@ -126,7 +126,7 @@ rect(rightt,900,50,50);
     
     if(theTime > 9000)
     {  
-    if(leftt < 1002)
+    if(leftt < 1001)
         {leftt = leftt + 15}
 }
 
@@ -139,7 +139,7 @@ if(theTime > 9000)
 
 if(theTime > 9000)
     {  
-    if(rightt < 1190.02)
+    if(rightt < 1190)
         {rightt = rightt + 15}
     }
 }
